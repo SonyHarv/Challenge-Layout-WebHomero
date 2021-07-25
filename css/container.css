@@ -1,3 +1,5 @@
+@import "./boxImg.css";
+
 .container {
   margin: auto;
   max-inline-size: 64rem;
@@ -9,97 +11,6 @@
 
 .container img {
   box-sizing: border-box;
-}
-
-.boxImg1 {
-  grid-column: 1/2;
-  grid-row: 1/2;
-  max-inline-size: 3.75rem;
-}
-.boxImg2 {
-  grid-column: 1/2;
-  grid-row-start: 2/3;
-  justify-self: center;
-  max-inline-size: 1.875rem;
-}
-.boxImg3 {
-  grid-column: 1/2;
-  grid-row-start: 3/4;
-  justify-self: center;
-  max-inline-size: 6.25rem;
-}
-.boxImg4 {
-  grid-column: 1/2;
-  grid-row-start: 4/5;
-  justify-self: center;
-  align-self: center;
-  max-inline-size: 3.75rem;
-}
-.boxImg5 {
-  grid-column: 1/2;
-  grid-row-start: 5/6;
-  max-inline-size: 4.375rem;
-}
-.boxImg6 {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  max-inline-size: 4.375rem;
-}
-.boxImg7 {
-  grid-column: 2/3;
-  grid-row: 3/4;
-  justify-self: center;
-  max-inline-size: 5.625rem;
-}
-.boxImg8 {
-  grid-column: 2/3;
-  grid-row: 4/5;
-  justify-self: center;
-  align-self: center;
-  max-inline-size: 3.75rem;
-}
-.boxImg9 {
-  grid-column: 3/4;
-  grid-row: 2/5;
-  max-inline-size: 13.8125rem;
-}
-.boxImg10 {
-  grid-column: 4/5;
-  grid-row: 2/3;
-  align-self: flex-end;
-  max-inline-size: 4.375rem;
-}
-.boxImg11 {
-  grid-column: 4/5;
-  grid-row: 3/4;
-  justify-self: center;
-  align-self: center;
-  max-inline-size: 4.375rem;
-}
-.boxImg12 {
-  grid-column: 4/5;
-  grid-row: 4/5;
-  justify-self: center;
-  align-self: center;
-  max-inline-size: 5rem;
-}
-.boxImg13 {
-  grid-column: 4/5;
-  grid-row: 5/6;
-  align-self: flex-end;
-  max-inline-size: 6.25rem;
-}
-.boxImg14 {
-  grid-column: 5/6;
-  grid-row: 4/5;
-  justify-self: center;
-  max-inline-size: 5.625rem;
-}
-.boxImg15 {
-  grid-column: 5/6;
-  grid-row: 5/6;
-  justify-self: center;
-  max-inline-size: 3.75rem;
 }
 
 @media screen and (max-width: 1000px) {
