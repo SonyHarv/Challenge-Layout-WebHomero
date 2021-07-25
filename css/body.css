@@ -1,0 +1,13 @@
+@import "./container.css";
+
+body {
+  background: var(--backgroundBody);
+}
+
+h1 {
+  text-align: center;
+  font: var(--title);
+  color: var(--black);
+  margin-block-start: 3.125rem;
+  margin-block-end: 4.6875rem;
+}

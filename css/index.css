@@ -1,3 +1,31 @@
-h1 {
-  color: purple;
+@import "./body.css";
+:root {
+  font-size: 16px;
+  --backgroundBody: #78bbcb;
+  --black: #000000;
+  --baseFontFamily: Mali, cursive, system-ui, sans-serif;
+  --title: bold 4rem / normal var(--baseFontFamily);
+  --content: normal 1rem / normal var(--baseFontFamily);
+}
+
+@media screen and (max-width: 1000px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 580px) {
+  :root {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 436px) {
+  :root {
+    font-size: 10px;
+  }
 }
